@@ -13,4 +13,4 @@ db.produtos.updateMany(
 { $inc: { avaliacao: 3 } },
 );
 
-db.produtos.find({}, { nome: true, avalicacao: true, _id: false });
+db.produtos.find({}, { nome: true, avaliacao: true, _id: false });
